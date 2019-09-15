@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.christyantofernando.squaremoticonapp">
+    package="com.fernandochristyanto.squaremoticonapp">
 
     <application
         android:allowBackup="true"

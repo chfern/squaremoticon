@@ -1,4 +1,4 @@
-package com.christyantofernando.squaremoticonapp
+package com.fernandochristyanto.squaremoticonapp
 
 import org.junit.Test
 

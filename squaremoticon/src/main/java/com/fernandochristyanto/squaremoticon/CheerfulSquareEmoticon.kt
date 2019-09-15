@@ -1,4 +1,4 @@
-package com.christyantofernando.squaremoticon
+package com.fernandochristyanto.squaremoticon
 
 import android.animation.PropertyValuesHolder
 import android.animation.ValueAnimator
@@ -9,7 +9,6 @@ import android.util.AttributeSet
 import android.view.View
 import androidx.annotation.ColorRes
 import androidx.core.content.ContextCompat
-import kotlin.math.absoluteValue
 import kotlin.math.min
 
 class CheerfulSquareEmoticon(context: Context, attrs: AttributeSet?) :

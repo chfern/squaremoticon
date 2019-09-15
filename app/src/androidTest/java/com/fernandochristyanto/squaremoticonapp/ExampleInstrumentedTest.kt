@@ -1,4 +1,4 @@
-package com.christyantofernando.squaremoticonapp
+package com.fernandochristyanto.squaremoticonapp
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
