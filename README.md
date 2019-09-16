@@ -1,7 +1,7 @@
 ![Squaremoticon Happy Logo](demo/cheerfulemot.png)
 ![Squaremoticon Sad Logo](demo/sademot.png)
 # squaremoticon
-Android emoticon (as custom view) with facial expression transitions  
+Android emoticon with facial expression transitions  
 
 ## How to Use
 This library is available through jcenter and can be included as follow:
