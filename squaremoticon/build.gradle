@@ -26,10 +26,38 @@ android {
 
 }
 
+ext {
+    bintrayRepo = 'squaremoticon'
+    bintrayName = 'squaremoticon'
+
+    publishedGroupId = 'com.fernandochristyanto'
+    libraryName = 'squaremoticon'
+    artifact = 'squaremoticon'
+
+    libraryDescription = 'Square emoticon for Android with transitions'
+
+    siteUrl = 'https://github.com/fernandochristyanto/squaremoticon'
+    gitUrl = 'https://github.com/fernandochristyanto/squaremoticon.git'
+
+    libraryVersion = '1.0.0'
+
+    developerId = 'fernandochristyanto'
+    developerName = 'Fernando Christyanto'
+    developerEmail = 'christyantofernando@email.com'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+}
+
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     implementation 'androidx.core:core-ktx:1.1.0'
 }
 
-apply from: 'publish.gradle'
+tasks.withType(Javadoc) {
+    excludes = ['**/*.kt'] // < ---- Exclude all kotlin files from javadoc file.
+}
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle'
