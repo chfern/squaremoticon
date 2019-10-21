@@ -25,7 +25,7 @@ Current version: 1.0.0
   * CheerfulSquareEmoticon.EMOT_STATE_SAD   
   
   Transitions
-  * ```emot.animateSad(durationMillis: Long)```   
+  * ```smiley.animateSad(durationMillis: Long)```   
     ![Happy to Sad](demo/happytosad.gif)
-  * ```emot.animateHappy(durationMillis: Long)```   
+  * ```smiley.animateHappy(durationMillis: Long)```   
     ![Sad to Happy](demo/sadtohappy.gif)
